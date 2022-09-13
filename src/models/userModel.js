@@ -20,6 +20,10 @@ const userSchema = new mongoose.Schema(
         type:String,
         required:true
     },
+    deviceIP:{
+      type:String,
+      required:true
+  },
     location:{
         type:String
     },
